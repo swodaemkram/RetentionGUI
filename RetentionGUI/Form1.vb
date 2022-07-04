@@ -56,7 +56,6 @@ Public Class Form1
         System.Threading.Thread.Sleep(1000)
         sc.Start()
 
-
     End Sub
 
 
@@ -72,7 +71,9 @@ Public Class Form1
     Private Sub InstallRetentionServiceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InstallRetentionServiceToolStripMenuItem.Click
 
         Process.Start("cmd", "/c mkdir C:\Retention")
-        Process.Start("cmd", "/c copy Retention.exe C:\Retention\")
+        Dim appPath = Application.ExecutablePath
+        MsgBox(appPath)
+        Process.Start("cmd", "/c copy " & "Retention.exe C:\Retention\")
         Process.Start("cmd", "/c sc create Retention binpath= C:\Retention\Retention.exe start= auto")
 
         System.Threading.Thread.Sleep(1000)

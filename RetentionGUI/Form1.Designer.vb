@@ -33,6 +33,7 @@ Partial Class Form1
         Me.CreateRegistryKeysToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InstallRetentionServiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UninstallRetentionServiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label2 = New System.Windows.Forms.Label()
@@ -45,7 +46,6 @@ Partial Class Form1
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -116,6 +116,12 @@ Partial Class Form1
         Me.UninstallRetentionServiceToolStripMenuItem.Name = "UninstallRetentionServiceToolStripMenuItem"
         Me.UninstallRetentionServiceToolStripMenuItem.Size = New System.Drawing.Size(214, 22)
         Me.UninstallRetentionServiceToolStripMenuItem.Text = "Uninstall Retention Service"
+        '
+        'AboutToolStripMenuItem
+        '
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
+        Me.AboutToolStripMenuItem.Text = "About"
         '
         'Label1
         '
@@ -206,12 +212,14 @@ Partial Class Form1
         '
         'Label6
         '
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.BackColor = System.Drawing.Color.Black
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label6.Location = New System.Drawing.Point(15, 32)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(472, 23)
+        Me.Label6.Size = New System.Drawing.Size(472, 27)
         Me.Label6.TabIndex = 10
-        Me.Label6.Text = "This program must be run as Administrator. You are currently running as :"
+        Me.Label6.Text = "This program must be run as Administrator !"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label7
@@ -221,12 +229,6 @@ Partial Class Form1
         Me.Label7.Size = New System.Drawing.Size(502, 22)
         Me.Label7.TabIndex = 11
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'AboutToolStripMenuItem
-        '
-        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
-        Me.AboutToolStripMenuItem.Text = "About"
         '
         'Timer2
         '
@@ -253,7 +255,7 @@ Partial Class Form1
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Retention GUI V 0.0.1 By Mark Meadows (c) 2022"
+        Me.Text = "Retention GUI V 0.2.1 By Mark Meadows (c) 2022"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)

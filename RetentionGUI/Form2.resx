@@ -117,6 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>RetentionGUI is a Graphical User Interface for the Retention Service.
+This service watches a directory and checks to see what the creation date was then
+Deturmins the age of the files to the current date if this age is greater then the
+"DaysToKeep" variable the files are deleted. This software was writen for use in
+instances where files accumulate forever. Like Log files and Backups.
+This software will only allow the age specified to be kept in the assigned directory.
+
+ </value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
