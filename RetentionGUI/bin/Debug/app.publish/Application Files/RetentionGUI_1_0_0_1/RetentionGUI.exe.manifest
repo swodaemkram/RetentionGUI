@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RetentionGUI.exe" version="1.0.0.1" publicKeyToken="40d03ca9b5770b1c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RetentionGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RetentionGUI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RetentionGUI.exe" size="94216">
+      <assemblyIdentity name="RetentionGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nYrO4YlRAxKBZ4Lp6EH/N6Z2FABR3htc+8n8hesTI7w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Retention.exe" size="14848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B+tGCsCsxzNyYPK7ff7tUpMqH+MFVhlMK/RKczhLt58=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetentionGUI.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-J125B7D\Mark Meadows" issuerKeyHash="b6353afaf537455269a58b0e3b4f30e44a0e4de5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SpvfdTk8ppaWXeDw6oxlSzksfFT2uRvrtS3mFBjv8qs=</DigestValue></Reference></SignedInfo><SignatureValue>q7Eqhv0xO1Ht9ABxOsXoxQMyQMCL0e/JwiXN+uyi0Yn0ZOys6LP502nH8qqBWNb743I5ZbFT97I71acJKLAPowfQ+Pqc7/IUyEeB9+FO6b1VTFWSCsrnfBJE7TnkowDwjNAGpqe+1FkVVAoVCHFQ4C0IJ20imkViw3G6wzc24nA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0bPGHgtieYnQgqD/YkCIpLDGcDRhkksfLaB9qDBAT4v08TC5nxmeJGWJWJKEOWulgylMjpd+fqamJHCd8Oa9/j9FBhO5/gCfY7AMxUHmqh9YT8Wk1DfXJpDq/OqcmaZj/2sp5tQRyJSfw4KNt5oGa/8eXV+xP8rDzCD51rqGA/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="abf2ef1814e62db5eb1bb9f6547c2c394b658ceaf0e05d9696a63c3975df9b4a" Description="" Url=""><as:assemblyIdentity name="RetentionGUI.exe" version="1.0.0.1" publicKeyToken="40d03ca9b5770b1c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-J125B7D\Mark Meadows</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vA/mMYIEkpSnuDwtqsito4sNQoENvGrk51keZZZdRdo=</DigestValue></Reference></SignedInfo><SignatureValue>lBFze04/DCCc1p321byzVra6yovhRIqK7Osa36S4/xxq4ZZbMLTGfrHS6KmlKaU/Ql+43Ag1gAPxzBcoelvkrptiBt39SktCYhgh4ltuKvkPIlCyUjHYAcvVjvpTFxkaAFqyKvIB7mW3OmxRCJ4SQXDOVAgmDtxK0I/5sEpMfmk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0bPGHgtieYnQgqD/YkCIpLDGcDRhkksfLaB9qDBAT4v08TC5nxmeJGWJWJKEOWulgylMjpd+fqamJHCd8Oa9/j9FBhO5/gCfY7AMxUHmqh9YT8Wk1DfXJpDq/OqcmaZj/2sp5tQRyJSfw4KNt5oGa/8eXV+xP8rDzCD51rqGA/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQRTN9+vhGcrtGhgYhwbVRAzANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgARABFAFMASwBUAE8AUAAtAEoAMQAyADUAQgA3AEQAXABNAGEAcgBrACAATQBlAGEAZABvAHcAczAeFw0yMjA3MDQxMzIwNTVaFw0yMzA3MDQxOTIwNTVaMEMxQTA/BgNVBAMeOABEAEUAUwBLAFQATwBQAC0ASgAxADIANQBCADcARABcAE0AYQByAGsAIABNAGUAYQBkAG8AdwBzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRs8YeC2J5idCCoP9iQIiksMZwNGGSSx8toH2oMEBPi/TxMLmfGZ4kZYlYkoQ5a6WDKUyOl35+pqYkcJ3w5r3+P0UGE7n+AJ9jsAzFQeaqH1hPxaTUN9cmkOr86pyZpmP/aynm1BHIlJ/Dgo23mgZr/x5dX7E/ysPMIPnWuoYD/QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACRnzTWsUuWE6Ep5JGBP66IP5r1+KLBLVxmE6wf2c4fSFdIFRO79rGqJL8pluJpAQ3xLq8wTZCfxxk9CcK1sK77i62l4ZBR6gBn/4eHxqSPJm3nsi2Jb10+Pz79x0IYBDY739fW+XAmHphFbTnxyspPX23zFA5908JAgEn3URzSR</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
