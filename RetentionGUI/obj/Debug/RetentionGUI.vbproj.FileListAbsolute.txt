@@ -1,0 +1,17 @@
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.Form1.resources
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.Resources.resources
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.vbproj.GenerateResource.cache
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.vbproj.CoreCompileInputs.cache
+C:\Users\Mark Meadows\source\repos\RetentionGUI\bin\Debug\RetentionGUI.exe.config
+C:\Users\Mark Meadows\source\repos\RetentionGUI\bin\Debug\RetentionGUI.exe
+C:\Users\Mark Meadows\source\repos\RetentionGUI\bin\Debug\RetentionGUI.pdb
+C:\Users\Mark Meadows\source\repos\RetentionGUI\bin\Debug\RetentionGUI.xml
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.exe
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.xml
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.pdb
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.vbprojAssemblyReference.cache
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.Form2.resources
+C:\Users\Mark Meadows\source\repos\RetentionGUI\bin\Debug\RetentionGUI.exe.manifest
+C:\Users\Mark Meadows\source\repos\RetentionGUI\bin\Debug\RetentionGUI.application
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.exe.manifest
+C:\Users\Mark Meadows\source\repos\RetentionGUI\obj\Debug\RetentionGUI.application
