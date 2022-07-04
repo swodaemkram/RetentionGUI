@@ -18,6 +18,9 @@ Public Class Form1
         TextBox3.Text = PathToMonitor
         TextBox4.Text = TimeOfDayToDeleteFiles
 
+        Dim appPath = Application.ExecutablePath
+        TextBox5.Text = appPath
+
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -71,9 +74,9 @@ Public Class Form1
     Private Sub InstallRetentionServiceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InstallRetentionServiceToolStripMenuItem.Click
 
         Process.Start("cmd", "/c mkdir C:\Retention")
-        Dim appPath = Application.ExecutablePath
-        MsgBox(appPath)
-        Process.Start("cmd", "/c copy " & "Retention.exe C:\Retention\")
+        Dim appPath = Application.StartupPath
+
+        Process.Start("cmd", "/c copy " & appPath & "Retention.exe C:\Retention\")
         Process.Start("cmd", "/c sc create Retention binpath= C:\Retention\Retention.exe start= auto")
 
         System.Threading.Thread.Sleep(1000)

@@ -47,6 +47,8 @@ Partial Class Form1
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -57,7 +59,7 @@ Partial Class Form1
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 2, 0, 2)
         Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional
-        Me.MenuStrip1.Size = New System.Drawing.Size(502, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(505, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -129,7 +131,7 @@ Partial Class Form1
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(22, 228)
+        Me.Label1.Location = New System.Drawing.Point(19, 313)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(465, 27)
         Me.Label1.TabIndex = 1
@@ -234,11 +236,31 @@ Partial Class Form1
         '
         Me.Timer2.Interval = 5000
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(26, 224)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(225, 15)
+        Me.Label8.TabIndex = 12
+        Me.Label8.Text = "This programs Exacution path is  :"
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(19, 243)
+        Me.TextBox5.Multiline = True
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(465, 67)
+        Me.TextBox5.TabIndex = 13
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(502, 267)
+        Me.ClientSize = New System.Drawing.Size(505, 349)
+        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.TextBox4)
@@ -287,4 +309,6 @@ Partial Class Form1
     Friend WithEvents UninstallRetentionServiceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Timer2 As Timer
+    Friend WithEvents Label8 As Label
+    Friend WithEvents TextBox5 As TextBox
 End Class
